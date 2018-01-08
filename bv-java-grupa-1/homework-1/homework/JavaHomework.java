@@ -6,7 +6,7 @@ public class JavaHomework
 {
     public static void main(String[] args) {
 //   /* 1. Calculate the sum of the first 100 numbers higher than 0. */
-        //    System.out.println("Suma primelor 100 de numere este " + sumFirstNumbers());
+    System.out.println("Suma primelor 100 de numere este " + sumFirstNumbers());
 //   /*   2. Display the smallest number from a collections of number */
         //  int[] tablouFix={101,57,80,69,35,45,50,99};
         //  System.out.println("Cel mai mic numar din tablou de numere este " + smallestFromCollection(tablouFix));
@@ -33,7 +33,7 @@ public class JavaHomework
 
     /**
      *
-     * @return
+     * @return sum
      */
     public static int sumFirstNumbers()
     {
@@ -49,8 +49,8 @@ public class JavaHomework
 
     /**
      *
-     * @param tablouFix
-     * @return
+     * @param tablouFix to check the smallest number from it
+     * @return smallest
      */
     public static int smallestFromCollection(int tablouFix[])
     {
@@ -97,8 +97,8 @@ public class JavaHomework
 
     /**
      *
-     * @param number
-     * @return
+     * @param number to check if it is palindrome
+     * @return message
      */
     public static boolean checkPalindrome(int number)
     {
@@ -114,7 +114,7 @@ public class JavaHomework
 
         if (number==reversed)
         {
-            System.out.println("Nnumarul este palindrom");
+            System.out.println("Numarul este palindrom");
             return true;
         }
 
@@ -161,9 +161,9 @@ public class JavaHomework
 
     /**
      *
-     * @param latimea
-     * @param lungimea
-     * @return
+     * @param latimea to be added
+     * @param lungimea to be added
+     * @return area
      */
     public static int rectangleArea(int latimea, int lungimea)
     {
@@ -178,9 +178,9 @@ public class JavaHomework
 
     /**
      *
-     * @param latimea
-     * @param lungimea
-     * @return
+     * @param latimea to be added
+     * @param lungimea to be added
+     * @return perimeter
      */
     public static int rectanglePerimeter(int latimea, int lungimea)
     {
@@ -198,8 +198,8 @@ public class JavaHomework
 
     /**
      *
-      * @param latura
-     * @return
+      * @param latura to be added
+     * @return area
      */
     public static int squareArea(int latura)
     {
@@ -219,7 +219,7 @@ public class JavaHomework
 
     /**
      *
-     * @return
+     * @return biggest number
      */
     public static int displayTheBiggest() {
         // int maxim = 0;
@@ -261,10 +261,9 @@ public class JavaHomework
 
     /**
      *
-     * @param i
-     * @return
+     * @return numbers from start to finish
      */
-    public static int displayFromStartToFinish(int i)
+    public static int displayFromStartToFinish( )
     {
         System.out.println("Insert start number:");
         Scanner scanner = new Scanner(System.in);
@@ -275,7 +274,7 @@ public class JavaHomework
 
         int result=0;
 
-        for (i=start; i<finish; i++)
+        for (int i=start; i<finish; i++)
         {
             result=i;
             System.out.println("Numerele sunt " + result);
