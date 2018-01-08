@@ -46,6 +46,12 @@ public class JavaHomework
     }
     //
 //    /*   2. Display the smallest number from a collections of number */
+
+    /**
+     *
+     * @param tablouFix
+     * @return
+     */
     public static int smallestFromCollection(int tablouFix[])
     {
         int i;
@@ -88,6 +94,12 @@ public class JavaHomework
     }
     //
     /* 4. Check if a number is palindrom( e.g palindrom 1221, 34143)  */
+
+    /**
+     *
+     * @param number
+     * @return
+     */
     public static boolean checkPalindrome(int number)
     {
         int i=number;
@@ -117,6 +129,10 @@ public class JavaHomework
 
     //
        /*  5. Display all the prime numbers lower than a given number */
+
+    /**
+     *
+     */
     public static void checkPrimeNumbers()
     {
         System.out.println("Insert number:");
@@ -142,6 +158,13 @@ public class JavaHomework
 
     //
     /* 6. Input the dimensions of a rectangle and display area and perimeter  */
+
+    /**
+     *
+     * @param latimea
+     * @param lungimea
+     * @return
+     */
     public static int rectangleArea(int latimea, int lungimea)
     {
 
@@ -153,6 +176,12 @@ public class JavaHomework
         return aria;
     }
 
+    /**
+     *
+     * @param latimea
+     * @param lungimea
+     * @return
+     */
     public static int rectanglePerimeter(int latimea, int lungimea)
     {
 
@@ -166,6 +195,12 @@ public class JavaHomework
 ////
 
     ///* 7. Input the length of the side of a square, and display its area.  Produce an error message if the length is negative  */
+
+    /**
+     *
+      * @param latura
+     * @return
+     */
     public static int squareArea(int latura)
     {
         int aria=1;
@@ -181,6 +216,11 @@ public class JavaHomework
     }
     ////
 //    /* 8. Input 3 numbers, and display the biggest. */
+
+    /**
+     *
+     * @return
+     */
     public static int displayTheBiggest() {
         // int maxim = 0;
         System.out.println("Insert first number:");
@@ -218,6 +258,12 @@ public class JavaHomework
     }
     //
      /* 9. Input 2 values: start and finish, then display the numbers from start to finish.*/
+
+    /**
+     *
+     * @param i
+     * @return
+     */
     public static int displayFromStartToFinish(int i)
     {
         System.out.println("Insert start number:");
