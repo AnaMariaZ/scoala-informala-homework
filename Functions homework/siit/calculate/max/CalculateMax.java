@@ -28,18 +28,11 @@ public class CalculateMax
      */
     public static int getMax(int x,int y)
     {
-        int max;
-
         if(x>y)
         {
-            max=x;
+            return x;
         }
 
-        else
-        {
-            max=y;
-        }
-
-        return max;
+        else return y;
     }
 }
